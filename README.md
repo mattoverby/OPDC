@@ -1,5 +1,5 @@
 # OPDC
-Unofficial repository for the One Page Dungeon Contest
+Unofficial repository of the One Page Dungeon Contest
 
 [www.dungeoncontest.com](https://www.dungeoncontest.com)
 
