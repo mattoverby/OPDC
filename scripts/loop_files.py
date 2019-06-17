@@ -7,7 +7,7 @@ def list_nonpdf():
 	for year in years:
 		directory = "../" + year + "/";
 		for fn in os.listdir(directory):
-#			if fn[-4:] != '.pdf':
+			if fn[-4:] != '.pdf':
 #			if fn[-4:] == '.tif':
 				print "\n" + directory + fn;
 #				print directory + fn[:-4] + ".pdf";
@@ -16,16 +16,17 @@ def list_nonpdf():
 #				subprocess.call(["git", "add", directory+fn[:-4]+".pdf"])
 #				subprocess.call(["git", "rm", directory+fn])
 
-#def strip_nonalphanumeric(astring):
+def strip_nonalphanumeric(astring):
 #	astring = astring.replace("_", "");
-#	astring = astring.replace("-", "");
-#	astring = astring.replace(",", "");
-#	astring = astring.replace("(", "");
-#	astring = astring.replace(")", "");
-#	astring = astring.replace("&", "");
-#	astring = astring.replace("!", "");
-#	astring = astring.replace("\"", "");
-#	return astring;
+	astring = astring.replace("-", "");
+	astring = astring.replace(",", "");
+	astring = astring.replace("(", "");
+	astring = astring.replace(")", "");
+	astring = astring.replace("&", "");
+	astring = astring.replace("!", "");
+	astring = astring.replace("\"", "");
+	astring = astring.replace(" ", "");
+	return astring;
 
 #def fix_2010():
 #	directory = "../OPDC2011/"
@@ -68,5 +69,19 @@ def list_nonpdf():
 #			oldfn = directory + fn;
 #			subprocess.call(["git", "mv", oldfn, newfn])
 
+def fix_2019():
+	directory = "../" + "OPDC2019/"
+	for fn in os.listdir(directory):
+		if fn[4] == "_":
+			#newfn = directory + "E0" + fn[1] + fn[2] + "_" + fn[4:];
+			newfn = directory + fn;
+			newfn = strip_nonalphanumeric(newfn);
+			print newfn;
+			oldfn = directory + fn;
+			#print oldfn;
+			subprocess.call(["mv", oldfn, newfn])
+			#subprocess.call(["git", "mv", oldfn, newfn])
+
 if __name__ == '__main__':
+#	fix_2019()
 	list_nonpdf()
