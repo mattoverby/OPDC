@@ -5,7 +5,7 @@ Unofficial repository of the One Page Dungeon Contest
 
 ## A note on this collection
 
-The file names and types have been changed for consistency. If you see an error, please submit an issue.
+I put together this repository for personal use. The file names and types have been changed for consistency. If you see an error, please submit an issue.
 
 ## A note on the license
 
