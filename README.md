@@ -16,3 +16,4 @@ Submissions to OPDC require the [CC BY-SA 3.0 license](https://creativecommons.o
 - Verify there are no missing entries and no files are corrupted
 - A catalog.json that stores the file name and properly formatted author names, link to their page, and titles
 - READMEs in each folder with nice links and categories (winners, etc...) created from above catalog.json
+- Author names to 2021
