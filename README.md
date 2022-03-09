@@ -1,5 +1,5 @@
 # OPDC
-Unofficial repository of the One Page Dungeon Contest
+A repository of the One Page Dungeon Contest
 
 [www.dungeoncontest.com](https://www.dungeoncontest.com)
 
@@ -10,6 +10,11 @@ I put together this repository for personal use. The file names and types have b
 ## A note on the license
 
 Submissions to OPDC require the [CC BY-SA 3.0 license](https://creativecommons.org/licenses/by-sa/3.0). However, early years of the contest had different requirements, so be sure to review them individually.
+
+## Other
+
+Here are some other favorite sources that are worth checking out:
+- Tyler Monahan https://onepageadventure.com
 
 ## To-do
 
