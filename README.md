@@ -14,6 +14,7 @@ Submissions to OPDC require the [CC BY-SA 3.0 license](https://creativecommons.o
 ## Other
 
 Here are some other favorite sources that are worth checking out:
+- [Curated list of OPDC](https://docs.google.com/spreadsheets/d/15zs7YZX0DyEawhT_KIS3pDp9YYaft9BnSSalgakQ8jY/edit?usp=sharing) from user [simoncarryer](https://www.reddit.com/user/simoncarryer/)
 - Tyler Monahan https://onepageadventure.com
 
 ## To-do
