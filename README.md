@@ -18,7 +18,4 @@ Here are some other favorite sources that are worth checking out:
 
 ## To-do
 
-- Verify there are no missing entries and no files are corrupted
-- A catalog.json that stores the file name and properly formatted author names, link to their page, and titles
-- READMEs in each folder with nice links and categories (winners, etc...) created from above catalog.json
-- Author names to 2021
+- Author names to 2021 and 2022

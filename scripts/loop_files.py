@@ -33,8 +33,7 @@ def strip_nonalphanumeric(f_dir, filename):
     astring = astring.replace("!", "")
     astring = astring.replace("\"", "")
     astring = astring.replace(" ", "")
-    print(astring)
-    #os.rename(f_dir+filename, f_dir+astring)
+    os.rename(f_dir+filename, f_dir+astring)
 # end strip alpha numeric
 
 def remove_v2(f_dir, filename):
@@ -61,8 +60,7 @@ def add_leading_zeros_2020(f_dir, filename):
         new_fn = '0' + new_fn
         
     new_fn = 'E' + new_fn
-    print(new_fn)
-    #os.rename(f_dir+filename, f_dir+new_fn)
+    os.rename(f_dir+filename, f_dir+new_fn)
 # end add leading zeros
 
 #
@@ -82,9 +80,7 @@ def main():
 
     for filename in files:
         #strip_nonalphanumeric(f_dir, filename)
-        if filename.count('_') != 2:
-        #if filename.count('.') > 1:
-            print(filename)
+        add_leading_zeros_2020(f_dir, filename)
     # end loop files
     
 # end main
